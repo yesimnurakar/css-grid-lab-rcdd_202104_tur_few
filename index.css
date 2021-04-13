@@ -20,9 +20,9 @@ body {
 /* add the .bigItem class */
 header {grid-template-rows: [header-start] 1fr [header-end] 1fr 1fr 1fr;
 grid-template-columns: 1fr 1fr 1fr;
- 
+
 /* -or- */
- 
+
 grid-template: [header-start] 1fr [header-end] 1fr 1fr 1fr / 1fr 1fr 1fr;
 }
 
