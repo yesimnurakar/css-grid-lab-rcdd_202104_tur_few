@@ -27,6 +27,8 @@ grid-template: [header-start] 1fr [header-end] 1fr 1fr 1fr / 1fr 1fr 1fr;
 }
 
 .bigItem {
-  grid-row: 2 / 4;
-  grid-column: 2 / 4;
+  grid-area: 2 / 2 / 4 / 4;
+  height: 50%;
+  width: 50%;
+  justify-self: center;
 }
